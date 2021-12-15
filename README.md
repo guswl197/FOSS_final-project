@@ -1,7 +1,7 @@
 # supervisely 사용법      
 
 
-### data labeling
+## data labeling
 
 인공지능의 세 가지 요소는 알고리즘, 모델, 데이터이다. 그중 데이터의 개수는 인공지능 성능에 큰 영향을 미친다.
 인공지능은 데이터의 수가 많아질수록 정확도가 증가하고 여러 가지 다른 알고리즘들의 정확도가 수렴하여 같아지게 된다.
@@ -12,7 +12,7 @@ supervised learning을 사용하는 인공지능은 데이터뿐만 아니라 �
 
 
 
-### supervisely란?
+## supervisely란?
 
 supervisely은 웹 기반 Dataset Annotation Tool이다. 쉽게 말하면 데이터의 라벨을 생성하는 라벨링 작업을 진행할 때 사용하는 tool이다. 데이터 라벨링은 필요에 따라 다양한 방법으로 할 수 있는데 supervisely은 keypoint, bounding box, segmentation labeling 방식이 가능하다.      
 
@@ -20,9 +20,9 @@ supervisely은 웹 기반 Dataset Annotation Tool이다. 쉽게 말하면 데이
 
 
 
-### supervisely 사용법
+## supervisely 사용법
 
-####  1. 계정 만들기 
+###  1. 계정 만들기 
 
 &nbsp;&nbsp;&nbsp; 1-1. 가장 먼저 아래 링크(supervisely)에 들어간다.
 
@@ -38,6 +38,6 @@ supervisely https://supervise.ly/
 
 ![2](./img/2.JPG)
 
-####  2. project 만들기
+###  2. project 만들기
 
 
