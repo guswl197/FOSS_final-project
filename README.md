@@ -10,11 +10,15 @@
 supervised learning을 사용하는 인공지능은 데이터뿐만 아니라 데이터의 label도 필요한 learning 방식이다. raw 데이터만을 가지고 있는 경우에는 데이터 라벨링 작업이
 필수적이다. 이 작업을 하기 위한 여러 가지 툴이 존재하는데 여기서는 supervisely tool을 소개한다.
 
+
+
 ### supervisely란?
 
 supervisely은 웹 기반 Dataset Annotation Tool이다. 쉽게 말하면 데이터의 라벨을 생성하는 라벨링 작업을 진행할 때 사용하는 tool이다. 데이터 라벨링은 필요에 따라 다양한 방법으로 할 수 있는데 supervisely은 keypoint, bounding box, segmentation labeling 방식이 가능하다.  
 
 이 문서에서는 가장 까다롭다고 생각하는 keypoint labeling 방식을 설명하도록 하겠다. 참고로 supervisely은 최대 1,000장까지 무료이므로 1,000장씩 끊어서 사용할 것을 권장한다.  
+
+
 
 ### supervisely 사용법
 
