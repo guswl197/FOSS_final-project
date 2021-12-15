@@ -68,4 +68,6 @@ supervisely https://supervise.ly/<br/><br/>
 ![10](./img/10.JPG)<br/><br/>
 
 
+3-3. title과 shape을 설정한다. shape은 어떤 방식으로 라벨링을 진행할 것인지에 대한 정보이다. 앞서 말했듯이 예제에서는 keypoint로 라벨링을 할 것이기 때문에 keypoint를 선택한다. 
 
+![11](./img/11.JPG)<br/><br/>
