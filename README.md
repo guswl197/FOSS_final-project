@@ -42,8 +42,6 @@ supervisely https://supervise.ly/
 ###  2. project 만들기
 <br/>
 2-1. 아래 화면은 로그인 후 나온 화면이다. 이 화면에서 좌측 Projects를 클릭하여 project를 생성한다.<br/><br/>
-
-
 ![3](./img/3.JPG)
 
 
