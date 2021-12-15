@@ -54,4 +54,5 @@ supervisely https://supervise.ly/<br/><br/>
 2-4. project 이름 설정 후 project를 생성한다.<br/>
 
 ![6](./img/6.JPG)<br/><br/>
+![7](./img/7.JPG)<br/><br/>
 
