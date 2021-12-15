@@ -37,10 +37,10 @@ supervisely https://supervise.ly/
 1-3. 계정이 있다면 로그인을 진행하고 계정이 없다면 Sign up을 진행한다. 
 
 
-![2](./img/2.JPG)<br/>
+![2](./img/2.JPG)<br/><br/>
 
-###  2. project 만들기
-<br/>
+###  2. project 만들기<br/><br/>
+
 2-1. 아래 화면은 로그인 후 나온 화면이다. 이 화면에서 좌측 Projects를 클릭하여 project를 생성한다.<br/><br/>
 
 ![3](./img/3.JPG)
