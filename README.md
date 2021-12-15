@@ -17,5 +17,7 @@ supervisely은 웹 기반 Dataset Annotation Tool이다. 쉽게 말하면 데이
 이 문서에서는 가장 까다롭다고 생각하는 keypoint labeling 방식을 설명하도록 하겠다. 참고로 supervisely은 최대 1,000장까지 무료이므로 1,000장씩 끊어서 사용할 것을 권장한다.  
 
 ### supervisely 사용법
-가장 먼저 아래 링크에 들어간다. 
-[supervisely] (https://supervise.ly/)
+
+#### 1. 계정 만들기 
+가장 먼저 아래 링크(supervisely)에 들어간다. 
+[supervisely] https://supervise.ly/
