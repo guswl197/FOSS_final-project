@@ -24,4 +24,5 @@ supervisely은 웹 기반 Dataset Annotation Tool이다. 쉽게 말하면 데이
 
 + 1. 계정 만들기 
 가장 먼저 아래 링크(supervisely)에 들어간다.
+
 --> [supervisely](https://supervise.ly/)
