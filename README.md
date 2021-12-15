@@ -83,3 +83,9 @@ supervisely https://supervise.ly/<br/><br/>
 3-6. Add Edge를 클릭 후 드래그로 노드 연결한다. 
 
 ![14](./img/14.JPG)<br/><br/>
+
+3-7. 노드들의 label과 color를 변경한다. 이 예제에서는 label은 노드 번호(명칭)으로 설정하였고 color는 다른 노드들과 겹치지 않도록 랜덤하게 설정하였다. 설정방법은 노드를 클릭 후 마우스 오른쪽을 클릭하면 가능하다.<br/>
+모든 설정 후 SAVE를 클릭한다.<br/>
+
+![15](./img/15.JPG)<br/><br/>
+
