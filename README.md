@@ -43,8 +43,14 @@ supervisely https://supervise.ly/<br/><br/>
 
 ![3](./img/3.JPG)<br/><br/>
 
-2-2. 1.Upload data의 IMPORT DATA을 클릭한다. 라벨링 할 이미지를 업로드하기 위한 작업이다.<br/>
+2-2. 1.Upload data의 IMPORT DATA을 클릭한다. 라벨링 할 데이터를 업로드하기 위한 작업이다.<br/>
 
 ![4](./img/4.JPG)<br/><br/>
+
+2-3. 라벨링을 하기 전 데이터 설정을 하는 과정이다.<br/>
+가장 위칸에서는 데이터의 형식을 지정한다. 여기서는 이미지 라벨링을 진행할 것이므로 images를 선택한다.<br/>
+그리고 가장 아래 드래그를 이용하여 라벨링을 진행할 데이터를 업로드한다.<br/><br/>
+
+![5](./img/5.JPG)<br/><br/>
 
 
