@@ -71,3 +71,8 @@ supervisely https://supervise.ly/<br/><br/>
 3-3. title과 shape을 설정한다. shape은 어떤 방식으로 라벨링을 진행할 것인지에 대한 정보이다. 앞서 말했듯이 예제에서는 keypoint로 라벨링을 할 것이기 때문에 keypoint를 선택한다. 
 
 ![11](./img/11.JPG)<br/><br/>
+
+3-4. Keypoints Template를 생성한다. Shape 설정에서 keypoints 선택했기 때문에 Keypoints Template을 생성해야 하는데 이 예제에서는 사람을 라벨링할 것이기 때문에 오른쪽 사진과 같이 Keypoint를 생성해야 한다. 사람의 Keypoint는 보통 15개로 지정하고 관절부분을 Keypoint라고 생각하면 된다. 
+
+![12](./img/12.JPG)<br/><br/>
+
