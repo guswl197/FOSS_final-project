@@ -38,7 +38,7 @@ supervisely https://supervise.ly/
 
 ![2](./img/2.JPG)
 
-###  2. project 만들기<br/> 
+###  2. project 만들기<br/>ㅇㄹㅇㄹㅇ
 
 
 
