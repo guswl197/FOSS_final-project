@@ -76,3 +76,10 @@ supervisely https://supervise.ly/<br/><br/>
 
 ![12](./img/12.JPG)<br/><br/>
 
+3-5. Add Node를 클릭 후 15개의 노드(Keypoint)를 생성한다.<br/>
+
+![13](./img/13.JPG)<br/><br/>
+
+3-6. Add Edge를 클릭 후 드래그로 노드 연결한다. 
+
+![14](./img/14.JPG)<br/><br/>
