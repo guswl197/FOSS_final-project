@@ -1,4 +1,4 @@
-# supervisely 사용법  
+# supervisely 사용법      
 
 
 ### data labeling
