@@ -23,16 +23,21 @@ supervisely은 웹 기반 Dataset Annotation Tool이다. 쉽게 말하면 데이
 ### supervisely 사용법
 
 ####  1. 계정 만들기 
-  1-1. 가장 먼저 아래 링크(supervisely)에 들어간다.
+
+&nbsp;&nbsp;&nbsp; 1-1. 가장 먼저 아래 링크(supervisely)에 들어간다.
 
 supervisely https://supervise.ly/
 
 
-1-2. Log in을 클릭한다. 
+&nbsp;&nbsp;&nbsp; 1-2. Log in을 클릭한다. 
 
 ![1](./img/1.JPG)
 
-1-3. 계정이 있다면 로그인을 진행하고 계정이 없다면 Sign up을 진행한다. 
+&nbsp;&nbsp;&nbsp; 1-3. 계정이 있다면 로그인을 진행하고 계정이 없다면 Sign up을 진행한다. 
 
 
 ![2](./img/2.JPG)
+
+####  2. project 만들기
+
+
