@@ -31,8 +31,7 @@ supervisely https://supervise.ly/
 
 1-2. Log in을 클릭한다. 
 
-![1](./img/1.JPG)
-
+![1](./img/1.JPG)<br/><br/>
 
 1-3. 계정이 있다면 로그인을 진행하고 계정이 없다면 Sign up을 진행한다. 
 
