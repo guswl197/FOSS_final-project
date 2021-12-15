@@ -41,7 +41,10 @@ supervisely https://supervise.ly/<br/><br/>
 
 2-1. 아래 화면은 로그인 후 나온 화면이다. 이 화면에서 좌측 Projects를 클릭하여 project를 생성한다.<br/>
 
-![3](./img/3.JPG)
+![3](./img/3.JPG)<br/><br/>
 
+2-2. 1.Upload data의 IMPORT DATA을 클릭한다. 라벨링 할 이미지를 업로드하기 위한 작업이다.<br/>
+
+![4](./img/4.JPG)<br/><br/>
 
 
