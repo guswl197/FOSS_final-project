@@ -26,8 +26,7 @@ supervisely은 웹 기반 Dataset Annotation Tool이다. 쉽게 말하면 데이
 
 1-1. 가장 먼저 아래 링크(supervisely)에 들어간다.
 
-supervisely https://supervise.ly/
-
+supervisely https://supervise.ly/<br/><br/>
 
 1-2. Log in을 클릭한다. 
 
