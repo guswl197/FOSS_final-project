@@ -56,3 +56,16 @@ supervisely https://supervise.ly/<br/><br/>
 ![6](./img/6.JPG)<br/><br/>
 ![7](./img/7.JPG)<br/><br/>
 
+###  3. class 만들기<br/><br/>
+
+3-1. project 생성 후 class를 만들어야 한다. 아래 사진과 같이 Projects를 클릭한 후 작업할 project를 클릭한다.<br/>
+
+![8](./img/8.JPG)<br/><br/>
+
+3-2. project 클릭 후 Classes를 클릭한다. 그리고 +NEW 버튼을 클릭한다. <br/>
+
+![9](./img/9.JPG)<br/><br/>
+![10](./img/10.JPG)<br/><br/>
+
+
+
