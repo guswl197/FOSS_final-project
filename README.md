@@ -11,7 +11,7 @@
 
 ## supervisely란?
 
-supervisely은 웹 기반 Dataset Annotation Tool이다. 쉽게 말하면 데이터의 label을 생성하는 labeling 작업을 진행할 때 사용하는 tool이다. 데이터 labeling은 필요에 따라 다양한 방법으로 할 수 있는데 supervisely은 keypoint, bounding box, segmentation labeling 방식이 가능하다.      
+supervisely은 웹 기반 Dataset Annotation Tool이다. 쉽게 말하면 데이터의 label을 생성하는 labeling 작업을 진행할 때 사용하는 tool이다. 데이터 labeling은 필요에 따라 다양한 방법으로 할 수 있는데 supervisely은 keypoint, bounding box, segmentation labeling 방식이 가능하다. 이 문서에서는 사람 labeling을 진행할 것이다. 사람은 보통 keypoint로 labeling을 진행한다. 사람의 자세나 행동을 정확히 판단하기 위해서는 관절의 위치를 파악하여 학습을 시키는 것이 유용하기 때문이다. 
 
 이 문서에서는 가장 까다롭다고 생각하는 keypoint labeling 방식을 설명하도록 하겠다. 참고로 supervisely은 최대 1,000장까지 무료이므로 1,000장씩 끊어서 사용할 것을 권장한다.<br/><br/><br/>
 
@@ -34,19 +34,19 @@ supervisely https://supervise.ly/<br/><br/>
 
 ###  2. project 만들기<br/><br/>
 
-2-1. 아래 화면은 로그인 후 나온 화면이다. 이 화면에서 좌측 Projects를 클릭하여 project를 생성한다.<br/>
+2-1. 아래 화면은 로그인 후 나오는 화면이다. 이 화면에서 좌측 Projects를 클릭하여 project를 생성한다.<br/>
 
 ![3](./img/3.JPG)<br/><br/>
 
-2-2. 1.Upload data의 IMPORT DATA을 클릭한다. 라벨링 할 데이터를 업로드하기 위한 작업이다.<br/>
+2-2. 1.Upload data의 IMPORT DATA을 클릭한다. labeling 할 data를 업로드하기 위한 작업이다.<br/>
 
 ![4](./img/4.JPG)<br/><br/>
 
-2-3. 라벨링을 하기 전 데이터 설정을 하는 과정이다. 가장 위칸에서는 데이터의 형식을 지정한다. 여기서는 이미지 라벨링을 진행할 것이므로 images를 선택한다. 그리고 가장 아래 드래그를 이용하여 라벨링을 진행할 데이터를 업로드한다.<br/>
+2-3. 라벨링을 하기 전 data관련 설정을 하는 과정이다. 가장 위칸에서는 data의 형식을 지정한다. 여기서는 이미지 labeling을 진행할 것이므로 images를 선택한다. 그리고 가장 아래 드래그를 이용하여 라벨링을 진행할 data를 업로드한다.<br/>
 
 ![5](./img/5.JPG)<br/><br/>
 
-2-4. project 이름 설정 후 project를 생성한다.<br/>
+2-4. project의 이름을 정한 후 project를 생성한다.<br/>
 
 ![6](./img/6.JPG)<br/><br/>
 ![7](./img/7.JPG)<br/><br/>
@@ -63,7 +63,7 @@ supervisely https://supervise.ly/<br/><br/>
 ![10](./img/10.JPG)<br/><br/>
 
 
-3-3. title과 shape을 설정한다. shape은 어떤 방식으로 라벨링을 진행할 것인지에 대한 정보이다. 앞서 말했듯이 예제에서는 keypoint로 라벨링을 할 것이기 때문에 keypoint를 선택한다. 
+3-3. title과 shape을 설정한다. shape은 어떤 방식으로 labeling을 진행할 것인지에 대한 정보이다. 앞서 말했듯이 예제에서는 keypoint로 labeling을 할 것이기 때문에 keypoint를 선택한다. 
 
 ![11](./img/11.JPG)<br/><br/>
 
@@ -110,7 +110,6 @@ supervisely https://supervise.ly/<br/><br/>
 
 ###  6. 다운로드<br/><br/>
 
-labeling 작업을 마쳤다면 다운로드를 해야한다. 아래 사진과 같이 점을 클릭하고 Download as 클릭 후 .json 클릭하면 labeling 정보가 json으로 저장되어 있는 파일이 다운로드된다. 
-
+labeling 작업을 마쳤다면 다운로드를 해야한다. 아래 사진과 같이 점을 클릭하고 Download as 클릭 후 .json 클릭하면 labeling 정보가 json으로 저장되어 있는 파일이 다운로드된다. 모든 작업이 끝난 후 label과 data를 이용하여 모델 학습에 활용할 수 있다. 
 
 ![21](./img/21.JPG)<br/><br/>
