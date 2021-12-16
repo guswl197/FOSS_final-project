@@ -7,15 +7,13 @@
 인공지능은 데이터의 수가 많아질수록 정확도가 증가하고 여러 가지 다른 알고리즘들의 정확도가 수렴하여 같아지게 된다.
 가장 좋은 알고리즘보다는 데이터를 가장 많이 가진 것이 더 정확한 알고리즘을 완성시킨다.<br/>
 
-모델의 학습방법에는 supervised learning과 unsupervised learning이 있다. supervised learning은 raw data와 그 데이터에 관련된 labbel값을 같이 학습시키는 방법이고 unsupervised learning은 오직 raw data만을 학습시키는 방법이다. supervised learning방법으로 모델을 학습시킬 때 label이 없는 data의 경우는 직접 label을 만드는 labeling작업을 진행해야 한다. 하지만 data의 양은 많을 수록 좋으므로 수작업으로 labeling할 data의 수도 많아지게 된다. 여기서는 본인이 많은 tool을 써본결과 가장 유용하고 편리한 tool인 supervisely을 소개하겠다.<br/><br/>
+모델의 학습방법에는 supervised learning과 unsupervised learning이 있다. supervised learning은 raw data와 그 데이터에 관련된 labbel값을 같이 학습시키는 방법이고 unsupervised learning은 오직 raw data만을 학습시키는 방법이다. supervised learning 방법으로 모델을 학습시킬 때 label이 없는 data의 경우는 직접 label을 만드는 labeling 작업을 진행해야 한다. 하지만 data의 양은 많을 수록 좋으므로 수작업으로 labeling할 data의 수도 많아지게 된다. 여기서는 본인이 많은 tool을 써본결과 가장 유용하고 편리한 tool인 supervisely을 소개하겠다.<br/><br/><br/>
 
 ## supervisely란?
 
-supervisely은 웹 기반 Dataset Annotation Tool이다. 쉽게 말하면 데이터의 라벨을 생성하는 라벨링 작업을 진행할 때 사용하는 tool이다. 데이터 라벨링은 필요에 따라 다양한 방법으로 할 수 있는데 supervisely은 keypoint, bounding box, segmentation labeling 방식이 가능하다.      
+supervisely은 웹 기반 Dataset Annotation Tool이다. 쉽게 말하면 데이터의 label을 생성하는 labeling 작업을 진행할 때 사용하는 tool이다. 데이터 labeling은 필요에 따라 다양한 방법으로 할 수 있는데 supervisely은 keypoint, bounding box, segmentation labeling 방식이 가능하다.      
 
-이 문서에서는 가장 까다롭다고 생각하는 keypoint labeling 방식을 설명하도록 하겠다. 참고로 supervisely은 최대 1,000장까지 무료이므로 1,000장씩 끊어서 사용할 것을 권장한다.  
-
-
+이 문서에서는 가장 까다롭다고 생각하는 keypoint labeling 방식을 설명하도록 하겠다. 참고로 supervisely은 최대 1,000장까지 무료이므로 1,000장씩 끊어서 사용할 것을 권장한다.<br/><br/><br/>
 
 ## supervisely 사용법
 
