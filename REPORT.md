@@ -1,7 +1,7 @@
 # REPORT<br/><br/>
 ## supervisely 사용법<br/><br/>
 
-![1](./img/sv.png)<br/><br/>
+![1](./img/sp.png)<br/><br/>
 
 supervisely은 웹 기반 Dataset Annotation Tool이다. 쉽게 말하면 데이터의 label을 생성하는 labeling 작업을 진행할 때 사용하는 tool이다. data labeling을 할 수 있는 tool은 다양하다. 그 중 이 tool을 소개하는 이유는 지금까지 써본 tool중 가장 편리하게 사용했던 tool이기 때문이다.<br/><br/>
 올해 여름방학 때 하계인턴을 하며 AI를 직접 다뤄보는 기회를 가질 수 있게 되었다. 진행했던 프로젝트는 무인점포에 있는 CCTV를 이용한 유기물 탐지 모델을 만드는 것이었다. 직접 무인점포에 답사를 가는 것부터 수집한 data를 labeling하고 모델을 만들고 만든 모델을 학습시킨 후 마지막으로 알고리즘을 만들어 좋은 성능을 내는 과정까지 참여할 수 있었다. 인공지능에서 data는 시간이 갈수록 data의 양에 대한 중요성이 커지고 있고 수집할 수 있는 data양도 많아지고 있다. 그러므로 여러 과정 중에 가장 시간이 오래걸리고 인력이 많이 필요했던 작업이 data labeling이다. 해당 프로젝트는 label이 필요한 supervised learning 방법을 이용하기 때문에 이미지 하나하나 일일히 data labeling을 해줘야 했다. 하루에 몇천장씩 labeling작업을 진행하니까 이 작업을 좀 더 쉽고 빠르게 할 수 있는 tool을 찾아보게 되었다.<br/><br/>
