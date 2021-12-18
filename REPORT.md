@@ -1,7 +1,7 @@
 # REPORT<br/>
 ## supervisely<br/><br/>
 <div class=text-justify>supervisely은 웹 기반 Dataset Annotation Tool이다. 쉽게 말하면 데이터의 label을 생성하는 labeling 작업을 진행할 때 사용하는 tool이다. data labeling을 할 수 있는 tool은 다양하다. 그 중 이 tool을 소개하는 이유는 지금까지 써본 tool중 가장 편리하게 사용했던 tool이기 때문이다.</div><br/>
-<div class=text-justify>올해 여름방학 때 하계인턴을 하며 AI를 직접 다뤄보는 시간을 가지게 됐다. 진행했던 프로젝트는 무인점포에 있는 CCTV를 이용한 유기물 탐지 모델을 만드는 것이었다. 직접 무인점포에 답사를 가는 것부터 수집한 data를 labeling하고 모델을 만들고 만든 모델을 학습시킨 후 마지막으로 알고리즘을 만들어 좋은 성능을 내는 과정까지 참여할 수 있었다. 이 과정 중에 가장 시간이 오래걸리고 인력이 많이 필요했던 작업이 data labeling이다. label이 필요한 supervised learning 방법을 이용하기 때문에 이미지 하나하나 일일히 data labeling을 해줘야 했다. 하루에 몇천장씩 labeling작업을 진행하니까 이 작업을 좀 더 쉽고 빠르게 할 수 있는 tool을 찾아보게 되었다.</div><br/>
+<div class=text-justify>올해 여름방학 때 하계인턴을 하며 AI를 직접 다뤄보는 시간을 가지게 됐다. 진행했던 프로젝트는 무인점포에 있는 CCTV를 이용한 유기물 탐지 모델을 만드는 것이었다. 직접 무인점포에 답사를 가는 것부터 수집한 data를 labeling하고 모델을 만들고 만든 모델을 학습시킨 후 마지막으로 알고리즘을 만들어 좋은 성능을 내는 과정까지 참여할 수 있었다. 이 과정 중 가장 시간이 오래걸리고 인력이 많이 필요했던 작업이 data labeling이다. label이 필요한 supervised learning 방법을 이용하기 때문에 이미지 하나하나 일일히 data labeling을 해줘야 했다. 하루에 몇천장씩 labeling작업을 진행하니까 이 작업을 좀 더 쉽고 빠르게 할 수 있는 tool을 찾아보게 되었다.</div><br/>
 처음에 쓴 data labeling tool은 YOLO Mark였다. 이 tool은 조금 투박하지만 bounding box를 labeling할 때는 가장 최적인 tool이라고 생각한다. 한참 이 tool을 이용하여 bounding box로 labeling을 진행하고 있을 때 사람의 동작을 파악하는 인공지능을 만들어야 했다. 사람의 동작은 bounding box로 파악하기 어렵고 관절 마디마디를 점을 일일히 찍어서 학습에 이용해야만 했다. 이 때 다른 tool로 변경하였는데 그 tool이 바로 supervisely이다.<br/><br/>
 
 
