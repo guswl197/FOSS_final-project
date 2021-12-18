@@ -1,4 +1,4 @@
-# REPORT -## supervisely 사용법<br/><br/>
+# REPORT - supervisely 사용법<br/><br/>
 
 ![1](./img/sp.png)<br/><br/>
 
